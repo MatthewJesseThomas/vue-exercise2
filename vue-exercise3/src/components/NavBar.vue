@@ -1,5 +1,5 @@
 <template>
-    <nav>
+    <nav class="bg-dark">
         <router-link to="/">Home</router-link> |
         <router-link to="/about">About</router-link> |
         <router-link to="/products">Products</router-link> |
@@ -12,6 +12,8 @@ export default {
     
 }
 </script>
-<style lang="">
-    
+<style>
+  nav{
+    box-shadow: .3vw .5vw .45vw .1vw ;
+  }  
 </style>

@@ -14,6 +14,8 @@ export default {
     }
 };
 </script>
-<style lang="">
-    
+<style>
+    h1, h2{
+        color: aliceblue;
+    }
 </style>

@@ -10,7 +10,7 @@
           <label for="password">Password:</label>
           <input class="password" type="password" placeholder="Password" v-model="password" required />
           <br />
-          <button type="submit">Login</button>
+          <button v-on:click="alertPurchase" type="submit">Login</button>
         </form>
       </div>
 </template>
@@ -26,7 +26,7 @@ data() {
 methods: {
     login() {
     // Perform login logic here, such as making a request to a server to authenticate the user
-    console.log("Log In Name: " + this.name + "and email: " + this.email + " and password: " + this.password);
+    console.log("Log In Name: " + this.name + " and email: " + this.email + " and password: " + this.password);
     }
 }
 };
